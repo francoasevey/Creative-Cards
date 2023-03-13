@@ -57,9 +57,10 @@ h1{
     padding: 20px;
     text-align: center;
     font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
+    font-weight: 600;
+    line-height: 18px;
     transition: 0.2s;
+    font-family: 'Tilt Neon', cursive;
 }
 .Prp:hover, .card:hover{
     color: #fff;
