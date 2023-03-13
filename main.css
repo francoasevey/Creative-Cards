@@ -26,11 +26,13 @@ body{
     position: absolute;
     height: 150px;
     width: 150px;
-    background: linear-gradient(120deg, #a600ff, #c486e1);
     right: 0;
     border-radius: 0 0 0 158px;
     box-shadow: 0 5px 3px #ffffff;
     transition: 0.5s;
+    background: linear-gradient(120deg, #03001e);
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);
+    background: linear-gradient(to bottom, #0f9b0f, #000000);
 }
 .card.card:hover::before{
     height: 100%;
@@ -65,13 +67,15 @@ a{
     font-family: sans-serif;
     text-transform: uppercase;
     padding: 10px 20px;
-    background: linear-gradient(120deg, #7701ff, #b27ee7);
     border-radius: 5px;
     border: none;
     color: #fff;
     font-weight: 600;
     letter-spacing: 2px;
     box-shadow: -2px 20px 30px -10px #000;
+    background: linear-gradient(120deg, #000000);
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);
+    background: linear-gradient(to bottom, #0f9b0f, #000000);
 }
 .card:nth-child(2).card:before{
     background: linear-gradient(120deg, #03001e);
