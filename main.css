@@ -8,18 +8,22 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(120deg, #ffffff, #000000);
+    background: linear-gradient(120deg, #ff0084);
+    background: -webkit-linear-gradient(to top, #33001b, #ff0084);
+    background: linear-gradient(to top, #33001b, #ff0084);
 }
 .card{
     height: 400px;
     width: 300px;
     margin: 80px;
-    background: #fff;
     border-radius: 20px;
     box-shadow: 10px, 50px, 55px, -50px #000;
     position: relative;
     overflow: hidden;
     transform: scale(1.3);
+    background: #1F1C2C;
+    background: -webkit-linear-gradient(to bottom, #ffffff, #000000);
+    background: linear-gradient(to bottom, #fefefe, #000000);    
 }
 .card::before{
     content: '';
